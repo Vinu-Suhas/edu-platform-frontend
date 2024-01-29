@@ -1,0 +1,41 @@
+.homecontainer1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homecontainer1-column1 {
+  width: 50%;
+  align-items: center;
+  align-content: center;
+}
+.homecontainer1-column2 {
+  width: 50%;
+}
+.line1 {
+  color: #f78077;
+}
+
+.homecontainer1-column1 h1,
+h3 {
+  font-weight: 500;
+}
+.homecontainer1-column1 h3 {
+  color: #f78077;
+}
+.knowMore {
+  margin-right: 30px;
+  background: #00a5ec 0 0 no-repeat padding-box;
+  border: none;
+  padding: 12px 52px;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.homecontainer2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}

@@ -1,0 +1,64 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+.headerContainer img {
+  height: 47px;
+  width: 126px;
+  margin-right: 0;
+  padding-top: 4px;
+  padding-left: 5%;
+}
+
+.headerContainer ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.loginButton,
+.signUp {
+  margin-right: 2%;
+  padding: 2px 15px;
+  border: 2px solid #ff219f;
+  color: #ff219f;
+  border-radius: 5px;
+  background-color: white;
+  width: fit-content;
+}
+
+.headerContainer {
+  margin-top: 2rem;
+}
+
+.signUp:hover {
+  color: black;
+}
+.loginButton:hover {
+  color: black;
+}
+.p2Container {
+  width: 95%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdwonMenu {
+  z-index: 50;
+  width: auto;
+  background-color: #fff;
+  border: 1px solid #ededed;
+  padding: 0.4rem;
+  border-radius: 16px;
+  position: absolute;
+}
+
+.buttonContainer {
+  align-self: center;
+  display: flex;
+}
