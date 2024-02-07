@@ -7,7 +7,8 @@ export const RouterCompo = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/login" element={<AuthForm />} />
+      <Route path="/login" element={<AuthForm authState={"Login"} />} />
+      <Route path="/signup" element={<AuthForm authState={"Register"} />} />
     </Routes>
   );
 };

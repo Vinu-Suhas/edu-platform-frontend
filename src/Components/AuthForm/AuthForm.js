@@ -1,7 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./AuthForm.css";
 export const AuthForm = (props) => {
   const [authState, setAuthState] = useState("Login");
+  useEffect(() => {
+    setAuthState(props.authState);
+  }, []);
   return (
     <div className="authContainer">
       <div className="authContainerLeft">

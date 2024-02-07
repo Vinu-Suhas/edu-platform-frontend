@@ -2,18 +2,24 @@ import React from "react";
 import "./Header.css";
 import { useHoverEffect } from "../CustomHooks/useHoverEffect";
 import { DropDownMenu } from "../DropDownMenu/DropDownMenu";
+import { useNavigate } from "react-router-dom";
 
 export const Header = () => {
   const studyMaterial = useHoverEffect();
   const courseAndPrograms = useHoverEffect();
   const blog = useHoverEffect();
+  const nav = useNavigate();
   return (
     <div className="headerContainer">
       <img src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/navbar/logoPrepBytes.svg" />
       <div className="p2Container">
         <div className="buttonContainer">
-          <button className="loginButton">Login</button>
-          <button className="signUp">Sign Up</button>
+          <button className="loginButton" onClick={() => nav("/login")}>
+            Login
+          </button>
+          <button className="signUp" onClick={() => nav("/signup")}>
+            Sign Up
+          </button>
         </div>
         <ul>
           <li
