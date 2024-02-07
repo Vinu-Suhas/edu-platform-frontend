@@ -83,6 +83,12 @@
 }
 
 .authFormInput input {
-  border-radius: 16px;
+  /* border-radius: 16px; */
   padding: 4px;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+}
+.authFormInput h4 {
+  margin: 0;
 }
