@@ -6,7 +6,7 @@ import { AuthForm } from "../AuthForm/AuthForm";
 export const RouterCompo = () => {
   return (
     <Routes>
-      <Route path="/home" element={<Home />} />
+      <Route path="/" element={<Home />} />
       <Route path="/login" element={<AuthForm />} />
     </Routes>
   );
