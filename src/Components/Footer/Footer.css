@@ -1,0 +1,15 @@
+.footerContainer {
+  background-color: #d5ffff;
+  display: flex;
+  width: 100%;
+  height: fit-content;
+}
+
+.footerRow1 {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.footerColumn2 p {
+  margin: 5px 0;
+}
