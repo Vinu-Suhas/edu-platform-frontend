@@ -24,6 +24,12 @@ export const Home = () => {
       <div className="homecontainer3">
         <img src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/images/homepage/stairs_of_approach(web).svg" />
       </div>
+      <div className="homecontainer4">
+        <h1>I WANT TO</h1>
+        <img src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/images/homepage/bg_master_competetive.webp" />
+        <img src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/images/homepage/bg_master_competetive.webp" />
+        <img src="https://s3.ap-south-1.amazonaws.com/www.prepbytes.com/images/homepage/bg_master_competetive.webp" />
+      </div>
     </>
   );
 };
