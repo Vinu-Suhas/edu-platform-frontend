@@ -51,3 +51,18 @@ h3 {
   position: relative;
   text-decoration: none;
 }
+
+.homecontainer5 {
+  background: #f8fafa;
+  min-height: 50px;
+}
+
+.homecontainer5-column1 {
+  width: 40%;
+}
+.HomeJourney__main-left--heading {
+  color: #3e4041;
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 25px;
+}

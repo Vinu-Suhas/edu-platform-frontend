@@ -53,6 +53,14 @@ export const Home = () => {
           </div>
         </div>
       </div>
+      <div className="homecontainer5">
+        <div className="homecontainer5-column1">
+          <p className="HomeJourney__main-left--heading">
+            Are you an Experienced Professional willing to Switch?
+          </p>
+        </div>
+        <div className="homecontainer5-column2"></div>
+      </div>
     </>
   );
 };
