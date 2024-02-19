@@ -58,7 +58,44 @@ export const Home = () => {
           <p className="HomeJourney__main-left--heading">
             Are you an Experienced Professional willing to Switch?
           </p>
+          <div className="CarrerPlanBox">
+            <img
+              src="https://prepbytes.netlify.app/static/media/industry_vetted_curriculum.ff2a038a10f9b9465a7a306bcdf7f3bd.svg"
+              alt="CarrterPlanICON"
+              class="CarrerPlanICON"
+            />
+            <p class="CarrerPlanBox_Text">
+              INDUSTRY VETTED CURRICULUM STRUCTURED FOR YOU
+            </p>
+          </div>
+          <div className="CarrerPlanBox">
+            <img
+              src="https://prepbytes.netlify.app/static/media/exclusive_placement.7fabadf0f7971f3b5faa1063b2f20966.svg"
+              alt="CarrterPlanICON"
+              class="CarrerPlanICON"
+            />
+            <p class="CarrerPlanBox_Text">
+              REAL LIFE PROJECTS BUILT ON DEMAND TECH STACK
+            </p>
+          </div>
+          <div className="CarrerPlanBox">
+            <img
+              src="https://prepbytes.netlify.app/static/media/real_life_projects.759015c0d8351268426471ddf7764adb.svg"
+              alt="CarrterPlanICON"
+              class="CarrerPlanICON"
+            />
+            <p class="CarrerPlanBox_Text">
+              EXCLUSIVE PLACEMENT SUPPORT TEAM WITH JOB GURANTEE
+            </p>
+          </div>
+          <p class="courseName">
+            PrepBytes Elevation Academy -
+            <span class="courseName_Text">
+              4 months Full Stack Program with Job Guarantee
+            </span>
+          </p>
         </div>
+        <button className="knowMoreButton">KNOW MORE</button>
         <div className="homecontainer5-column2"></div>
       </div>
     </>
