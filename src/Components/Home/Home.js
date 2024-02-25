@@ -94,9 +94,15 @@ export const Home = () => {
               4 months Full Stack Program with Job Guarantee
             </span>
           </p>
+          <button className="knowMoreButton">KNOW MORE</button>
         </div>
-        <button className="knowMoreButton">KNOW MORE</button>
-        <div className="homecontainer5-column2"></div>
+        <div className="homecontainer5-column2">
+          <img src="https://prepbytes.netlify.app/static/media/CarrerImgOne.3af63c32958ba5716c93a1255561c026.svg" />
+          <div>
+            <img src="https://prepbytes.netlify.app/static/media/CarrerImgTwo.12dbe33b33469abb76fe91112343317a.svg" />
+            <img src="https://prepbytes.netlify.app/static/media/CarrerImgThree.50d09597dcdef3a1256872241895f338.svg" />
+          </div>
+        </div>
       </div>
     </>
   );

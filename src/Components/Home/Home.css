@@ -55,10 +55,17 @@ h3 {
 .homecontainer5 {
   background: #f8fafa;
   min-height: 50px;
+  display: flex;
+  width: 100%;
 }
 
 .homecontainer5-column1 {
   width: 40%;
+}
+
+.homecontainer5-column2 {
+  width: 30%;
+  display: flex;
 }
 .HomeJourney__main-left--heading {
   color: #3e4041;
